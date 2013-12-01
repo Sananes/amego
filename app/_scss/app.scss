@@ -1,0 +1,20 @@
+// Global Foundation Settings
+@import "settings";
+@import "../_bower_components/foundation/scss/foundation";
+
+body {
+  font-size:18px;
+}
+.center {
+  text-align:center;
+}
+.title-area {
+  float:left;
+}
+.copyright {
+  li {
+    display:inline;
+    width:500px;
+  }
+}
+
