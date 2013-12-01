@@ -7,13 +7,13 @@
 
 name: amego
 description: 
+url: ['http://amego.co/dev']
 
 author:
   name: Aaron Sananes
   email: aasananes@gmail.com
   github: sananes
   twitter: aasananes
-
 # Exclude directories and/or files from the conversion.
 # Grunt moves image files and asset directories.
 exclude: ['img', 'css', 'js', 'fonts',

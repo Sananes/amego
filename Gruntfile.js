@@ -17,6 +17,20 @@ module.exports = function (grunt) {
 
   grunt.initConfig({
     // Configurable paths
+  buildcontrol: {
+    options: {
+      dir: 'dist',
+      commit: true,
+      push: true,
+      message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%'
+    },
+    local: {
+      options: {
+        remote: '../',
+        branch: 'build'
+      }
+    }
+  },
     yeoman: {
       app: 'app',
       dist: 'dist'
@@ -354,7 +368,7 @@ module.exports = function (grunt) {
       'watch'
     ]);
   });
-
+  grunt.loadNpmTasks('grunt-build-control');
   grunt.registerTask('server', function () {
     grunt.log.warn('The `server` task has been deprecated. Use `grunt serve` to start a server.');
     grunt.task.run(['serve']);
