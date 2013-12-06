@@ -1,13 +1,149 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: Amego.co
+slug: home
 ---
+<section id="header" class="container">
+  <!-- inlclude header -->
+  {% include header.html %}
+  <!-- / include header -->
+  <section id="intro" class="container">
+    <div class="row">
+      <div class="intro-lead">
+        <h2 class="title">“Because First Impressions Matter”</h2>
+        <p class="subleader">We create quality products that enrich the lives of others.</p> 
+        <a href="#about" class="button learnmore">Learn More</a>                
+      </div>
+    </div>
+  </section> 
+</section>
+<div class="subnav">
+<div class="row">
+  <ul class="sub-nav">
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#work">Work</a></li>
+    <li><a href="#map">Location</a></li>
+    <li><a href="#" data-reveal-id="contact-form">Let's Talk</a></li>
+  </ul>
+</div>
+</div>
+<div id="content">
 
-<div id="home">
-  <h1>Testing</h1>
+
+    <section id="about" class="feature" data-id="about">
+      <div class="row">
+         <h2>About Us</h2>
+         <p class="subleader">“Human tendency in impression formation is to assume that all qualities and interactions of an organization will mirror the first impression, whether positive or negative” As your website is often the first point of contact with your potential clients, it must be modern, informative and visually appealing.</p>
+
+         <div class="userinfo large-12 columns clearfix">
+         <div class="row">
+          <a href="#" class="aaron">Aaron</a>
+          <a href="#" class="suraj" data-tooltip="top" class="has-tip tip-top" title="Suraj Khemlani - Marketing Strategist">Suraj</a>
+          <a href="#" class="gaspar" data-tooltip="top" class="has-tip tip-top" title="Gaspar Mac - Lead Developer">Gaspar</a>
+          </div>
+         </div>
+      </div>
+    </section>
+
+    <section id="services" class="feature sandy container">
+      <div class="row">
+         <h2>Services</h2>
+         <p class="subleader">“Human tendency in impression formation is to assume that all qualities and interactions of an organization will mirror the first impression, whether positive or negative” As your website is often the first point of contact with your potential clients, it must be modern, informative and visually appealing.</p>
+
+         <ul class="all-features no-bullet clearfix">
+           <li class="service large-3 columns">
+            <div class="inner">
+             <h2 class="heading">User Interface</h2>
+             <ul class="services">
+                <li>Websites</li>
+                <li>Marketing</li>
+                <li>User Interface</li>
+                <li>User Experience</li>
+                <li>Idea Generation</li>
+             </ul>
+            </div>
+           </li>
+           <li class="service large-3 columns">
+             <div class="inner">
+             <h2 class="heading">User Experience</h2>
+             <ul class="services">
+                <li>Websites</li>
+                <li>Marketing</li>
+                <li>User Interface</li>
+                <li>User Experience</li>
+                <li>Idea Generation</li>
+             </ul>
+             </div>
+           </li>
+           <li class="service large-3 columns">
+           <div class="inner">
+             <h2 class="heading">Development</h2>
+             <ul class="services">
+                <li>Websites</li>
+                <li>Marketing</li>
+                <li>User Interface</li>
+                <li>User Experience</li>
+                <li>Idea Generation</li>
+             </ul>
+             </div>
+           </li>
+           <li class="service large-3 columns">
+           <div class="inner">
+             <h2 class="heading">Branding</h2>
+             <ul class="services">
+                <li>Websites</li>
+                <li>Marketing</li>
+                <li>User Interface</li>
+                <li>User Experience</li>
+                <li>Idea Generation</li>
+             </ul>
+             </div>
+           </li>
+         </ul>
+
+         <ul class="brands no-bullet center padding-top">
+            <li class="large-12 columns"><img data-interchange="[img/service-logos@2x.png, (retina)]" width="978" height="69" src="../img/service-logos.png" alt=""></li>
+         </ul>
+      </div>
+    </section>
+
+    <section id="work" class="feature">
+          <a class="button view-work" href="{{site.url}}/about"><span>View<br />Work</span></a>
+    </section>
+
+    <section id="partners" class="feature">
+      <div class="row">
+         <h2>Industry Partners</h2>
+         <p class="subleader">“Human tendency in impression formation is to assume that all qualities and interactions of an organization will mirror the first impression, whether positive or negative” As your website is often the first point of contact with your potential clients, it must be modern, informative and visually appealing.</p>
+         <ul class="partner-logos no-bullet">
+           <li class="large-12 columns"><img data-interchange="[img/industry-partners@2x.png, (retina)]" width="809" height="129" src="img/industry-partners.png" alt="{{ site.name }}"></li>
+         </ul>
+      </div>
+    </section>
+
+    <section id="map" class="feature map-canvas no-padding">
+      <div class="row">
+         <h2>Location, Location</h2>
+      </div>
+    </section>
+
+    <section id="ready" class="feature">
+      <div class="row">
+         <h2 class="title">Ready to Start?</h2>
+          <a class="button" href="#" data-reveal-id="contact-form">Let's Talk</a>
+      </div>
+    </section>
+
+
+
+<!-- <div>
+  <h1>GAY BOY</h1>
   <ul class="posts">
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
+</div> -->
+
 </div>

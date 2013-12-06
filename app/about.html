@@ -1,5 +1,10 @@
 ---
-layout: default
+layout: page
 title: About
+slug: about
 ---
-<p>Testing im gay</p>
+
+{% for post in site.posts %}
+    <!--single post code-->
+    <h2>{{post.title}}</h2>
+{% endfor %}

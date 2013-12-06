@@ -7,17 +7,30 @@
 
 name: amego
 description: 
-url: ['http://amego.co/dev']
 
 author:
   name: Aaron Sananes
   email: aasananes@gmail.com
   github: sananes
   twitter: aasananes
+
+slug: home
 # Exclude directories and/or files from the conversion.
 # Grunt moves image files and asset directories.
 exclude: ['img', 'css', 'js', 'fonts',
           '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico']
+
+category_dir: 'category'
+
+dribbble_set:
+  user:            'sananes'
+  shots_per_page:  12
+  page:            1
+  gallery_tag:     'ul'
+  gallery_class:   'projects'
+  is_list:         true
+  a_target:        '_blank'
+  full_size:       false
 
 # Force inclusion of directories and/or files in the conversion.
 # .htaccess is a good example since dotfiles are excluded by default.
@@ -35,7 +48,7 @@ future: true
 
 # Compile posts in the _drafts directory.
 # _config.build.yml sets this to false on `grunt build`
-show_drafts: true
+#show_drafts: false
 
 # Markdown library
 markdown: redcarpet

@@ -12,165 +12,29 @@
         <!-- endbuild -->
 
     </head>
-    <body>
-    {{content}}
-        <div class="wrapper">
-          <div class="container">
-            <header>
-            <div class="row">
-              <section class="title-area">
-                <h1><a href="/">{{ site.name }}</a></h1>
-              </section>
+    <body{% if page.slug %} class="{{page.slug}}"{% else %} class="home"{% endif %}>
+      <div id="wrapper">
+        {% include contact-form.html %}
 
-              <section class="top-menu right">
-                <a href="#" class="button capitalized"  data-reveal-id="contact-form">Let's Talk</a>
-              </section>
-            </div>
-            </header>
-            <section id="intro">
-              <div class="row">
-                <div class="intro-lead">
-                  <h2>"Because First Impressions Matter"</h2>
-                  <p>We create quality products that enrich the lives of others.</p> 
-                  <a href="#" class="button" data-reveal-id="contact-us">Learn More</a>                
-                </div>
-              </div>
-            </section>
+        {{content}}
 
-            <section id="about" class="feature">
-              <div class="row">
-                 <h2>About Us</h2>
-                 <p>“Human tendency in impression formation is to assume that all qualities and interactions of an organization will mirror the first impression, whether positive or negative” As your website is often the first point of contact with your potential clients, it must be modern, informative and visually appealing.</p> 
-              </div>
-            </section>
+        {% include footer.html %}
 
-            <section id="services" class="feature">
-              <div class="row">
-                 <h2>Services</h2>
-                 <p>“Human tendency in impression formation is to assume that all qualities and interactions of an organization will mirror the first impression, whether positive or negative” As your website is often the first point of contact with your potential clients, it must be modern, informative and visually appealing.</p>
-
-                 <ul class="no-bullet clearfix">
-                   <li class="large-3 columns">
-                     <img src="http://placehold.it/100x100" alt="#">
-                     <h2>User Interface Design</h2>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, dolorum sed earum praesentium temporibus voluptatibus doloremque ipsum dolores eaque eos debitis ex accusantium consequatur odio nobis quia illo id necessitatibus.</p>
-                   </li>
-                   <li class="large-3 columns">
-                     <img src="http://placehold.it/100x100" alt="">
-                     <h2>User Experience</h2>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, error alias natus sint repellat vero sunt molestiae corporis facilis tempore excepturi aut similique nisi. Hic dolorum dolores porro qui eos?</p>
-                   </li>
-                   <li class="large-3 columns">
-                     <img src="http://placehold.it/100x100" alt="#">
-                     <h2>Development</h2>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, fugit, rerum, pariatur, deserunt sunt error mollitia et hic culpa qui necessitatibus laboriosam esse eius dolorum sint dolor rem cupiditate illo.</p>
-                   </li>
-                   <li class="large-3 columns">
-                     <img src="http://placehold.it/100x100" alt="">
-                     <h2>Branding</h2>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, est, hic deleniti ut porro esse voluptates alias a exercitationem repellendus. Asperiores, totam explicabo sint iure cumque ut cum quis aut.</p>
-                   </li>
-                 </ul>
-
-                 <ul class="brands no-bullet center">
-                    <li class="large-3 columns"><img src="http://placehold.it/200x100" alt=""></li>
-                    <li class="large-3 columns"><img src="http://placehold.it/200x100" alt=""></li>
-                    <li class="large-3 columns"><img src="http://placehold.it/200x100" alt=""></li>
-                    <li class="large-3 columns"><img src="http://placehold.it/200x100" alt=""></li>
-                 </ul>
-              </div>
-            </section>
-
-            <section id="work" class="feature">
-              <div class="row">
-                 <h2>Featured Work</h2>
-                  <img src="http://placehold.it/300x300" alt="" />
-                  <a class="button" href="#">View Work</a>
-              </div>
-            </section>
-
-            <section id="clients" class="feature">
-              <div class="row">
-                 <h2>Featured Work</h2>
-                 <p>“Human tendency in impression formation is to assume that all qualities and interactions of an organization will mirror the first impression, whether positive or negative” As your website is often the first point of contact with your potential clients, it must be modern, informative and visually appealing.</p> 
-              </div>
-            </section>
-
-
-            <section id="partners" class="feature">
-              <div class="row">
-                 <h2>Industry Partners</h2>
-                 <p>“Human tendency in impression formation is to assume that all qualities and interactions of an organization will mirror the first impression, whether positive or negative” As your website is often the first point of contact with your potential clients, it must be modern, informative and visually appealing.</p>
-                 <ul class="no-bullet">
-                   <li class="large-3 columns"><img src="http://placehold.it/200x100" alt=""></li>
-                   <li class="large-3 columns"><img src="http://placehold.it/200x100" alt=""></li>
-                   <li class="large-3 columns"><img src="http://placehold.it/200x100" alt=""></li>
-                 </ul>
-              </div>
-            </section>
-
-            <section id="map" class="feature">
-              <div class="row">
-                 <h2>Location, Location</h2>
-              </div>
-            </section>
-
-            <section id="ready" class="feature">
-              <div class="row">
-                 <h2>Ready to Start?</h2>
-                  <a class="button" href="#">Let's Talk</a>
-              </div>
-            </section>
-            <section id="contact-form" class="reveal-modal" data-reveal>
-              <form action="http://getsimpleform.com/messages?form_api_token=e549ce667e57e98624e1875bf216e11c" method="post">
-                <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-                <input type='hidden' name='redirect_to' value='http://www.hellothemes.com' />
-                <!-- all your input fields here.... -->
-                <div class="floating-placeholder">
-                  <input type='text' name='Name' placeholder="Full Name" required />
-                </div>
-                <div class="floating-placeholder">
-                  <input type='email' name='email' placeholder="Email Address" required />
-                </div>
-                <div class="floating-placeholder">
-                  <input type='tel' name='phone' placeholder="Telephone Number" required />
-                </div>
-                <select name="mood" id="">
-                  <option value="default">Let it all out...</option>
-                  <option value="Sad">Sad</option>
-                  <option value="Angry">Angry</option>
-                  <option value="Happy">Happy</option>
-                  <option value="Moody">Moody</option>
-                </select>
-                <button type='submit'>Get Started</button>
-              </form>
-            </section>
-            <footer class="footer">
-            <div class="row">
-              <ul class="copyright no-bullet left">
-                <li>Copyright 2013-2014 - <a href="#">Amego</a> All Rights Reserved.</li>
-              </ul>
-              <ul class="social inline-list right">
-                <li><a href="#">Dribbble</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">GitHub</a></li>
-                <li><a href="#">+447549167010</li>
-              </ul>
-            </div>
-            </footer>
-          </div> <!-- /site -->
-
-        </div> <!-- /wrapper -->
-
+      </div> <!-- /wrapper -->
     <!-- build:js({app,.tmp}) /js/scripts.js -->
     <script src="/_bower_components/jquery/jquery.min.js"></script>
+    <script src="/_bower_components/modernizr/modernizr.js"></script>
     <script src="/_bower_components/foundation/js/foundation.min.js"></script>
+    {% if page.url == "/" %}
+    <script type="text/javascript" src="/js/googlemapsapi.js"></script>
+    <script src="/js/maps.js"></script>
+    <script src="/js/map-include.js"></script>
+    {% endif %}
     <script src="/js/main.js"></script>
-    <script src="/js/placeholder.js"></script>
+    <script src="/js/dribbble.js"></script>
+    <script src="/js/waypoints.js"></script>
     <!-- endbuild -->
-    <script type="text/javascript">
-      $(document).foundation();
-    </script>
+
 
     </body>
 </html>

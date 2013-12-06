@@ -1,0 +1,1294 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"header",
+				"header-height"
+			],
+			[
+				"font-weight",
+				"font-weight-100"
+			],
+			[
+				"title",
+				"title"
+			],
+			[
+				"username",
+				"fetchUsername"
+			],
+			[
+				"fetch",
+				"fetchHypemId"
+			],
+			[
+				"$http",
+				"$httpProvider"
+			],
+			[
+				"overlay",
+				"canvas-overlay"
+			],
+			[
+				"enhance",
+				"enhanceGallery"
+			],
+			[
+				"quickShopVar",
+				"quickShopVariantElement"
+			],
+			[
+				"quick-sh",
+				"quick-shop-thumbs"
+			],
+			[
+				"thumb",
+				"thumbList"
+			],
+			[
+				"mobi",
+				"mobile_height"
+			],
+			[
+				"the",
+				"theloop	The Loop"
+			],
+			[
+				"em",
+				"emCalc"
+			],
+			[
+				"team-mem",
+				"team-member"
+			],
+			[
+				"showcase",
+				"showcase-1"
+			],
+			[
+				"scroll",
+				"scroll_top"
+			],
+			[
+				"have",
+				"have_posts"
+			],
+			[
+				"button",
+				"button_step2"
+			],
+			[
+				"learn",
+				"learn_developer"
+			],
+			[
+				"commet",
+				"commentform	Comment Form Template"
+			],
+			[
+				"sky",
+				"skype_id"
+			],
+			[
+				"get_template_direc",
+				"get_template_directory_uri"
+			],
+			[
+				"back",
+				"back-btn"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/_plugins/portfolio.rb",
+			"settings":
+			{
+				"buffer_size": 2101,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/_projects/test.yml",
+			"settings":
+			{
+				"buffer_size": 907,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_config.yml",
+			"settings":
+			{
+				"buffer_size": 1611,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/_plugins/__categories.rb",
+			"settings":
+			{
+				"buffer_size": 840,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"Packa",
+				"Package Control: Install Package"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Add P",
+				"Package Control: Add Repository"
+			],
+			[
+				"Package Contr",
+				"Package Control: Install Package"
+			],
+			[
+				"Pac",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control",
+				"Preferences: Package Control Settings – Default"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"sublime.packages_path()",
+			"cd ../",
+			"Run Package: Add Repository",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Sananes/Documents/Web/amego/_config.yml",
+		"/Users/Sananes/Documents/Web/project/_plugins/portfolio.rb",
+		"/Users/Sananes/Documents/Web/project/index.html",
+		"/Users/Sananes/Documents/Web/project/_config.yml",
+		"/Users/Sananes/Documents/Web/project/_layouts/portfolio.html",
+		"/Users/Sananes/Documents/Web/project/_layouts/project.html",
+		"/Users/Sananes/Downloads/flatterline.com-master 2/agile-development/index.md",
+		"/Users/Sananes/Downloads/flatterline.com-master 2/_config.yml",
+		"/Users/Sananes/Documents/Web/amego/Gemfile",
+		"/Users/Sananes/Documents/Web/amego/app/_projects/test.yml",
+		"/Users/Sananes/Documents/Web/amego/app/_projects/2011-08-01-project.markdown",
+		"/Users/Sananes/Documents/Web/amego/app/_plugins/projects.rb",
+		"/Users/Sananes/Documents/Web/amego/app/_plugins/archive.rb",
+		"/Users/Sananes/Documents/Web/amego/app/_plugins/dribbble.rb",
+		"/Users/Sananes/Documents/Web/amego/app/_scss/_mixins.scss",
+		"/Users/Sananes/Documents/Web/amego/app/about.html",
+		"/Users/Sananes/Documents/Web/amego/app/_scss/app.scss",
+		"/Users/Sananes/Documents/Web/amego/app/_scss/_settings.scss",
+		"/Users/Sananes/Documents/Web/amego/app/_includes/page-header.html",
+		"/Users/Sananes/Documents/Web/amego/app/js/map-include.js",
+		"/Users/Sananes/Documents/Web/amego/app/js/dribbble.js",
+		"/Users/Sananes/Documents/Web/amego/app/_includes/footer.html",
+		"/Users/Sananes/Documents/Web/amego/app/portfolio.html",
+		"/Users/Sananes/Documents/Web/amego/app/_plugins/categories.rb",
+		"/Users/Sananes/Documents/Web/amego/app/_layouts/portfolio.html",
+		"/Users/Sananes/Documents/Web/amego/Gruntfile.js",
+		"/Users/Sananes/Documents/Web/amego/app/_layouts/page.html",
+		"/Users/Sananes/Documents/Web/amego/app/_layouts/projects.html",
+		"/Users/Sananes/Documents/Web/amego/app/_projects/dscovr.yml",
+		"/Users/Sananes/Documents/Web/amego/app/projects.html",
+		"/Users/Sananes/Documents/Web/amego/app/_projects/2013-12-01-dscovr.yml",
+		"/Users/Sananes/Documents/Web/amego/app/_posts/2013-12-01-welcome-to-jekyll.md",
+		"/Users/Sananes/Documents/Web/amego/app/_plugins/cat_and_tag_generator.r",
+		"/Users/Sananes/Documents/Web/amego/app/_portfolio/2013-12-01-dscovr.md",
+		"/Users/Sananes/Documents/Web/amego/app/_posts/2013-12-01-yo-jekyllrb.md",
+		"/Users/Sananes/Documents/Web/amego/app/index.html",
+		"/Users/Sananes/Documents/Web/amego/app/_portfolio/dscovr.md",
+		"/Users/Sananes/Documents/Web/amego/app/case-studies.html",
+		"/Users/Sananes/Documents/Web/amego/app/js/waypoints.js",
+		"/Users/Sananes/Documents/Web/amego/app/js/main.js",
+		"/Users/Sananes/Documents/Web/amego/app/_includes/contact-form.html",
+		"/Users/Sananes/Documents/Web/amego/app/_bower_components/foundation/scss/foundation/components/_global.scss",
+		"/Users/Sananes/Documents/Web/amego/app/js/scrollspy.js",
+		"/Users/Sananes/Documents/Web/amego/app/_bower_components/foundation/js/foundation/foundation.magellan.js",
+		"/Users/Sananes/Documents/Web/amego/app/_includes/header.html",
+		"/Users/Sananes/Documents/Web/amego/app/.htaccess",
+		"/Users/Sananes/Downloads/balupton-jquery-scrollto-a30313e 2/lib/jquery-scrollto.js",
+		"/Users/Sananes/Downloads/jquery.scrollTo-1.4.3.1-min.js",
+		"/Users/Sananes/Documents/Web/amego/app/js/googlemapsapi.js",
+		"/Users/Sananes/Documents/Web/amego/app/js/maps.js",
+		"/Users/Sananes/Documents/Web/projecto/index.html",
+		"/Users/Sananes/Documents/Web/amego/htaccess",
+		"/Users/Sananes/Documents/Web/amego/dist/.htaccess",
+		"/Users/Sananes/Documents/Web/newtheme/config.yml",
+		"/Users/Sananes/Documents/Web/amego/dist/index.html",
+		"/Users/Sananes/Documents/Web/test/app/about.html",
+		"/Users/Sananes/Documents/Web/dscover.me/landing/app/index.html",
+		"/Users/Sananes/Documents/Web/amego/app/_layouts/default.html",
+		"/Users/Sananes/Documents/Web/amego/app/about/index.html",
+		"/Users/Sananes/Documents/Web/myproject/scss/app.scss",
+		"/Users/Sananes/Documents/Web/myproject/Gruntfile.js",
+		"/Users/Sananes/Documents/Web/amego/_config.build.yml",
+		"/Users/Sananes/Documents/Web/blog/_config.yml",
+		"/Users/Sananes/Documents/Web/amego/.htaccess",
+		"/Users/Sananes/Documents/Web/amego/app/js/placeholder.js",
+		"/Users/Sananes/Documents/Web/amego/sass/app.scss",
+		"/Users/Sananes/Documents/Web/shopify/Flatto/scss/app.scss",
+		"/Users/Sananes/Documents/Web/shopify/Flatto/scss/_settings.scss",
+		"/Users/Sananes/Documents/Web/shopify/Flatto/config.rb",
+		"/Users/Sananes/Documents/Web/amego/config.rb",
+		"/Users/Sananes/Documents/Web/amego/_source/index.html",
+		"/Users/Sananes/Documents/Web/dscover.me/webapp/Gruntfile.js",
+		"/Users/Sananes/Documents/Web/amego/_source/assets/css/app.css",
+		"/Users/Sananes/Documents/Web/amego-foundation/config.rb",
+		"/Users/Sananes/Documents/Web/amego-foundation/_plugins/generator_scss.rb",
+		"/Users/Sananes/Documents/Web/amego-foundation/_sass/config.rb",
+		"/Users/Sananes/Documents/Web/dscover.me/webapp/app/index.html",
+		"/Users/Sananes/Documents/Web/dscover.me/landing/app/bower_components/bootstrap/less/mixins.less",
+		"/Users/Sananes/Documents/Web/dscover.me/landing/app/styles/main.less",
+		"/Users/Sananes/Documents/Projects/dscover.me/webapp/Gruntfile.js",
+		"/Users/Sananes/Documents/Projects/dscover.me/webapp/app/scripts/services/player.js",
+		"/Users/Sananes/Documents/Projects/dscover.me/webapp/app/js/controllers/volume.js",
+		"/Users/Sananes/Documents/Projects/dscover.me/webapp/app/partials/header.html",
+		"/Users/Sananes/Documents/Projects/dscover.me/webapp/app/partials/login.html",
+		"/Users/Sananes/Documents/Projects/dscover.me/webapp/app/index.html",
+		"/Users/Sananes/Documents/Projects/dscover.me/webapp/app/js/controllers/login.js",
+		"/Users/Sananes/Documents/Projects/dscover.me/webapp/bower.json",
+		"/Users/Sananes/Documents/Projects/dscover.me/webapp/.gitignore",
+		"/Users/Sananes/Documents/Projects/dscover.me/webapp/app/libs/angular-ui-slider/src/slider.js",
+		"/Users/Sananes/Documents/Projects/dscover.me/webapp/app/partials/player.html",
+		"/Users/Sananes/Documents/Projects/dscover.me/webapp/app/js/controllers/player.js",
+		"/Users/Sananes/Documents/Projects/foodme-master/app/js/app.js",
+		"/Users/Sananes/Documents/Projects/dscover.me/webapp/dist/scripts/scripts.js",
+		"/Users/Sananes/Documents/Projects/dscover.me/webapp/app/js/app.js",
+		"/Users/Sananes/Documents/Projects/dscover.me/webapp/app/js/controllers/main.js",
+		"/Users/Sananes/Documents/Projects/dscover.me/webapp/app/libs/bootstrap-ui/.bower.json",
+		"/Users/Sananes/Documents/Projects/dscover.me/webapp/app/scripts/services/fetchTracks.js",
+		"/Users/Sananes/Documents/Projects/dscover.me/webapp/app/libs/bootstrap/less/mixins.less",
+		"/Users/Sananes/Documents/Projects/dscover.me/webapp/app/partials/main.html",
+		"/Users/Sananes/Documents/Projects/dscover.me/webapp/app.js",
+		"/Users/Sananes/Documents/Projects/dscover.me/webapp/app/libs/angular-ui-slider/bower.json",
+		"/Users/Sananes/Downloads/jquery-music-equalizer/js/jquery.equalizer.js",
+		"/Users/Sananes/Documents/Projects/dscover.me/webapp/app/css/app.less",
+		"/Users/Sananes/Documents/Projects/dscover.me/webapp/app/partials/volume.html",
+		"/Users/Sananes/Downloads/lesshat-2.0.0/build/lesshat.less",
+		"/Users/Sananes/Documents/Projects/dscover.me/webapp/test/spec/controllers/main.js",
+		"/Users/Sananes/Documents/Projects/dscover.me/webapp/dist/scripts/modules.js",
+		"/Users/Sananes/Documents/Projects/dscover.me/webapp/app/js/directives/directives.js",
+		"/Users/Sananes/Documents/Projects/dscover.me/webapp/app/libs/bootstrap/less/variables.less",
+		"/Users/Sananes/Documents/Projects/dscover.me/webapp/app/partials/footer.html",
+		"/Users/Sananes/Documents/Projects/dscover.me/webapp/app/libs/spin/spin.min.js",
+		"/Users/Sananes/Documents/Projects/dscover.me/webapp/node_modules/grunt-autoprefixer/node_modules/autoprefixer/lib/autoprefixer/keyframes.js",
+		"/Users/Sananes/Documents/Projects/dscover.me/webapp/app/add_modal_bs3.html",
+		"/Users/Sananes/Documents/Projects/dscover.me/webapp/app/libs/bootstrap-ui/ui-bootstrap.min.js",
+		"/Users/Sananes/Downloads/bootstrap-gh-pages 2/ui-bootstrap-tpls-0.6.0.min.js",
+		"/Users/Sananes/Downloads/ui-slider-master/bower.json",
+		"/Users/Sananes/Downloads/bootstrap-custom/ui-bootstrap-custom-0.6.0.min.js",
+		"/Users/Sananes/Downloads/bootstrap-gh-pages/ui-bootstrap-0.1.0.js",
+		"/Users/Sananes/Downloads/ui-slider-master/demo/demo.html",
+		"/Users/Sananes/Downloads/ui-slider-master/src/slider.js",
+		"/Users/Sananes/Downloads/audioslider/slider.css",
+		"/Users/Sananes/Documents/Projects/dscover.me/webapp/app/music/backup_tracks.json",
+		"/Users/Sananes/Downloads/peepcode-tunes-master/public/js/Tunes.js",
+		"/Users/Sananes/Downloads/audioslider/slider.js",
+		"/Users/Sananes/Documents/Projects/dscover.me/webapp/app/js/controllers/albums.json",
+		"/Users/Sananes/Downloads/audioslider/index.html",
+		"/Users/Sananes/Documents/Projects/dscover.me/webapp/app/tracks.json",
+		"/Users/Sananes/Downloads/demo/js/jquery-ui-1.8.21.custom.min.js"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/Sananes/Documents/Projects/dscover.me/webapp/app/libs",
+			"",
+			"/Users/Sananes/Downloads/Shopify_ShopMusic/shopmusic",
+			"/Applications/XAMPP/xamppfiles/htdocs/shopify/framework/fahey-rodriguez4877-5079530/templates",
+			"/Applications/XAMPP/xamppfiles/htdocs/shopify/framework/fahey-rodriguez4877-5079530",
+			"/Applications/XAMPP/xamppfiles/htdocs/shopify/framework/fahey-rodriguez4877-5079530/snippets",
+			"",
+			"/Applications/XAMPP/xamppfiles/htdocs/shopify/fahey-rodriguez4877-5051391/assets/foundation",
+			"/Applications/XAMPP/xamppfiles/htdocs/shopify/fahey-rodriguez4877-5051391/foundation",
+			"/Applications/XAMPP/xamppfiles/htdocs/shopify/fahey-rodriguez4877-5051391/assets/foundation",
+			"/Applications/XAMPP/xamppfiles/htdocs/shopify/fahey-rodriguez4877-5051391/foundation",
+			"/Applications/XAMPP/xamppfiles/htdocs/shopify/fahey-rodriguez4877-5051391/assets/foundation",
+			"/Applications/XAMPP/xamppfiles/htdocs/trustiful/wp-content/themes/trustiful",
+			"/Applications/XAMPP/xamppfiles/htdocs/trustiful",
+			"/Applications/XAMPP/xamppfiles/htdocs/trustiful/wp-content/themes/trustiful",
+			"/Applications/XAMPP/xamppfiles/htdocs/trustiful/wp-content/themes/trustiful/assets/scss/foundation/components",
+			"/Applications/XAMPP/xamppfiles/htdocs/trustiful/wp-content/themes/trustiful/assets/scss/foundation",
+			"/Applications/XAMPP/xamppfiles/htdocs/trustiful/wp-content/themes/trustiful/assets/scss",
+			"/Applications/XAMPP/xamppfiles/htdocs/cmshero/wp-content/themes/cmshero/assets",
+			"/Applications/XAMPP/xamppfiles/htdocs/cmshero/wp-content/themes/cmshero",
+			"/Applications/XAMPP/xamppfiles/htdocs/cmshero/wp-content/themes/cmshero/assets",
+			"/Applications/XAMPP/xamppfiles/htdocs/cmshero/wp-content/themes/cmshero/assets/scss",
+			"/Applications/XAMPP/xamppfiles/htdocs/cmshero/wp-content/themes/cmshero/assets",
+			"/Applications/XAMPP/xamppfiles/htdocs/cmshero/wp-content/themes/cmshero/assets/scss",
+			"/Users/Sananes/Documents/Backup/scruples/es_ES",
+			"/Users/Sananes/Downloads/metros.magento.v1.5 2/Magento Files",
+			"/Users/Sananes/Documents/Backup/scruples/es_ES",
+			"/Applications/XAMPP/xamppfiles/htdocs/asa/wp-content/themes/allseasonsadventures",
+			"/Applications/XAMPP/xamppfiles/htdocs/asa/wp-content/themes/allseasonsadventures/",
+			"/Applications/XAMPP/xamppfiles/htdocs/asa/wp-content/themes/allseasonsadventures",
+			"/Applications/XAMPP/xamppfiles/htdocs/devbootup/wp-content/themes/devbootup"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"source",
+			"projects",
+			"project",
+			"li",
+			"feat",
+			"subnav",
+			".nav",
+			".show",
+			".home",
+			".top-menu",
+			".logo",
+			".top-menu",
+			"contact-form",
+			"#intro",
+			"view-work",
+			"view",
+			"about",
+			".button",
+			"top-menu",
+			"screen",
+			"$small",
+			".container",
+			"$small",
+			"$mall",
+			"$screen",
+			"medium-up",
+			"button",
+			".quote",
+			"#map",
+			"map",
+			"maps",
+			"top-menu",
+			"type",
+			"font",
+			"contact-form",
+			"font-color",
+			"rev",
+			"grunt-rev",
+			"animation",
+			"prefix",
+			"#contact",
+			"work",
+			"htmlmin",
+			"contact",
+			"contact-form",
+			"about",
+			"shadow",
+			".home #content",
+			"$header-bottom-margin: .5rem !default;",
+			"$header-bottom-margin",
+			"type",
+			"typograph",
+			"feature",
+			"retina",
+			"light",
+			"lighter",
+			"lighten",
+			"http",
+			"css",
+			"main.css",
+			"main",
+			"htaccess",
+			"grunt.load",
+			"loadNpm",
+			"foundation",
+			".social",
+			"signup",
+			"footer",
+			"scrollto",
+			"retina",
+			"form-group",
+			"get-notified",
+			".tmp",
+			"$scope",
+			"scope",
+			"ui.bootstrap",
+			"bootstrap-ui",
+			"playing",
+			"mp3res",
+			"apply",
+			"progress-bar",
+			"alterbri",
+			"itunes",
+			"apply",
+			"rootScope",
+			"loader",
+			".loder",
+			"load",
+			"loader",
+			".loader",
+			"indent",
+			"jshint",
+			"ngmin",
+			"==",
+			"=",
+			"==",
+			"ngmin",
+			"grunt-ngmin",
+			"grunt.loadNpmTasks('grunt-ngmin')",
+			"grunt.loadNpmTasks('grunt-ngmin');",
+			"ngmin",
+			"ng-hide",
+			"rootScope",
+			"hypemId",
+			"animation",
+			".animation",
+			"rotate",
+			".ortate",
+			"keyframes",
+			"@keyframe",
+			"media-controls",
+			".music-control",
+			"volume",
+			"example8",
+			"mute",
+			"alert",
+			".my-elm",
+			".volume",
+			"transition",
+			".progress",
+			"outline",
+			"current.track",
+			"TunesCtrl",
+			"tracks",
+			"audio",
+			"play",
+			"$rootScope",
+			"album"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			".hide",
+			"$scope.current.track",
+			"$container",
+			"$productItems",
+			"nextShow",
+			"trustiful",
+			"Trustiful",
+			"\"",
+			"",
+			"jQuery",
+			"\"",
+			"1540457148",
+			"696933875",
+			"149539684",
+			"1978907531",
+			"473544719",
+			"",
+			"label-required",
+			"control-label",
+			"control-group"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "/Users/Sananes/Documents/Web/amego"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/_plugins/portfolio.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2101,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								625,
+								625
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/_projects/test.yml",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 907,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								744,
+								748
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "_config.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1611,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								523,
+								523
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/_plugins/__categories.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 840,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								655,
+								598
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"project": "",
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"header",
+				"app/_includes/header.html"
+			],
+			[
+				"about",
+				"app/about.html"
+			],
+			[
+				"app",
+				"app/_scss/app.scss"
+			],
+			[
+				"main.js",
+				"app/js/main.js"
+			],
+			[
+				"default",
+				"app/_layouts/default.html"
+			],
+			[
+				"footer",
+				"app/_includes/footer.html"
+			],
+			[
+				"app.scss",
+				"app/_scss/app.scss"
+			],
+			[
+				"projects",
+				"app/projects.html"
+			],
+			[
+				"global",
+				"app/_bower_components/foundation/scss/foundation/components/_global.scss"
+			],
+			[
+				"global.scss",
+				"app/_bower_components/foundation/scss/foundation/components/_global.scss"
+			],
+			[
+				"mainjs",
+				"amego/app/js/main.js"
+			],
+			[
+				"ogin",
+				"dscover.me/webapp/app/js/controllers/login.js"
+			],
+			[
+				"index",
+				"dscover.me/webapp/app/index.html"
+			],
+			[
+				"",
+				"dscover.me/webapp/app/js/controllers/main.js"
+			],
+			[
+				"mixins",
+				"dscover.me/landing/app/bower_components/bootstrap/less/mixins.less"
+			],
+			[
+				"login.js",
+				"dscover.me/webapp/app/js/controllers/login.js"
+			],
+			[
+				"login.ht",
+				"dscover.me/webapp/app/partials/login.html"
+			],
+			[
+				"app.js",
+				"dscover.me/webapp/app/js/app.js"
+			],
+			[
+				"login",
+				"dscover.me/webapp/app/partials/login.html"
+			],
+			[
+				"controllerjs",
+				"dscover.me/webapp/app/js/controllers/player.js"
+			],
+			[
+				"player.html",
+				"dscover.me/webapp/app/partials/player.html"
+			],
+			[
+				"playerjs",
+				"dscover.me/webapp/app/js/controllers/player.js"
+			],
+			[
+				"index.",
+				"dscover.me/webapp/app/index.html"
+			],
+			[
+				"playjs",
+				"dscover.me/webapp/app/js/controllers/player.js"
+			],
+			[
+				"main",
+				"dscover.me/webapp/app/partials/main.html"
+			],
+			[
+				"player",
+				"dscover.me/webapp/app/partials/player.html"
+			],
+			[
+				"player.js",
+				"dscover.me/webapp/app/js/controllers/player.js"
+			],
+			[
+				"main.html",
+				"dscover.me/webapp/app/partials/main.html"
+			],
+			[
+				"inde",
+				"dscover.me/webapp/app/index.html"
+			],
+			[
+				"head",
+				"dscover.me/webapp/app/partials/header.html"
+			],
+			[
+				"app.",
+				"dscover.me/webapp/app/js/app.js"
+			],
+			[
+				"volu",
+				"dscover.me/webapp/app/js/controllers/volume.js"
+			],
+			[
+				"main.ht",
+				"dscover.me/webapp/app/partials/main.html"
+			],
+			[
+				"main.",
+				"dscover.me/webapp/app/js/controllers/main.js"
+			],
+			[
+				"login.s",
+				"dscover.me/webapp/app/js/controllers/login.js"
+			],
+			[
+				"mixin",
+				"dscover.me/webapp/app/libs/bootstrap/less/mixins.less"
+			],
+			[
+				"app.less",
+				"dscover.me/webapp/app/css/app.less"
+			],
+			[
+				"login.",
+				"dscover.me/webapp/app/partials/login.html"
+			],
+			[
+				"keyframes",
+				"dscover.me/webapp/node_modules/grunt-autoprefixer/node_modules/autoprefixer/lib/autoprefixer/keyframes.js"
+			],
+			[
+				"variables",
+				"dscover.me/webapp/app/libs/bootstrap/less/variables.less"
+			],
+			[
+				"footer.h",
+				"dscover.me/webapp/app/partials/footer.html"
+			],
+			[
+				"direct",
+				"dscover.me/webapp/app/js/directives/directives.js"
+			],
+			[
+				"directi",
+				"dscover.me/webapp/app/js/directives/directives.js"
+			],
+			[
+				"login.html",
+				"dscover.me/webapp/app/partials/login.html"
+			],
+			[
+				"header.",
+				"dscover.me/webapp/app/partials/header.html"
+			],
+			[
+				"carouse",
+				"dscover.me/webapp/app/partials/carousel.html"
+			],
+			[
+				"appl.ess",
+				"dscover.me/webapp/app/css/app.less"
+			],
+			[
+				"variab",
+				"dscover.me/webapp/app/libs/bootstrap/less/variables.less"
+			],
+			[
+				"variable",
+				"webapp/app/libs/bootstrap/less/variables.less"
+			],
+			[
+				"navbar",
+				"webapp/app/libs/bootstrap/less/navbar.less"
+			],
+			[
+				"bootstra",
+				"webapp/app/libs/bootstrap/less/bootstrap.less"
+			],
+			[
+				"boot",
+				"webapp/app/libs/bootstrap/less/bootstrap.less"
+			],
+			[
+				"varia",
+				"webapp/app/libs/bootstrap/less/variables.less"
+			],
+			[
+				"style.s",
+				"assets/scss/style.scss"
+			],
+			[
+				"type",
+				"assets/scss/foundation/components/_type.scss"
+			],
+			[
+				"product-ho",
+				"fahey-rodriguez4877-5079530/snippets/product-loop-home.liquid"
+			],
+			[
+				"product",
+				"fahey-rodriguez4877-5079530/templates/product.liquid"
+			],
+			[
+				"settin",
+				"fahey-rodriguez4877-5079530/config/settings.html"
+			],
+			[
+				"theme",
+				"fahey-rodriguez4877-5079530/layout/theme.liquid"
+			],
+			[
+				"icons",
+				"fahey-rodriguez4877-5079530/assets/foundation-icons.css"
+			],
+			[
+				"settings",
+				"fahey-rodriguez4877-5079530/config/settings.html"
+			],
+			[
+				"style",
+				"assets/scss/style.scss"
+			],
+			[
+				"founda",
+				"assets/scss/foundation.scss"
+			],
+			[
+				"produc",
+				"framework/fahey-rodriguez4877-5079530/templates/product.liquid"
+			],
+			[
+				"quick",
+				"framework/fahey-rodriguez4877-5079530/snippets/quick-shop.liquid"
+			],
+			[
+				"prohome",
+				"framework/fahey-rodriguez4877-5079530/snippets/product-loop-home.liquid"
+			],
+			[
+				"produ",
+				"framework/fahey-rodriguez4877-5079530/templates/product.liquid"
+			],
+			[
+				"option",
+				"shopmusic/assets/csOptionSelect.js"
+			],
+			[
+				"selec",
+				"shopmusic/assets/csCustomSelect.js"
+			],
+			[
+				"quick-shop",
+				"framework/fahey-rodriguez4877-5079530/snippets/quick-shop.liquid"
+			],
+			[
+				"productloop",
+				"framework/fahey-rodriguez4877-5079530/snippets/product-loop-home.liquid"
+			],
+			[
+				"enhance",
+				"framework/fahey-rodriguez4877-5079530/assets/enhance.js"
+			],
+			[
+				"qu",
+				"framework/fahey-rodriguez4877-5079530/snippets/quick-shop.liquid"
+			],
+			[
+				"header-sc",
+				"framework/fahey-rodriguez4877-5079530/snippets/header-scripts.liquid"
+			],
+			[
+				"shop",
+				"shopmusic/snippets/quick-shop.liquid"
+			],
+			[
+				"quic",
+				"framework/fahey-rodriguez4877-5079530/snippets/quick-shop.liquid"
+			],
+			[
+				"prod",
+				"framework/fahey-rodriguez4877-5079530/templates/product.liquid"
+			],
+			[
+				"globa",
+				"framework/assets/scss/foundation/components/_global.scss"
+			],
+			[
+				"quick-s",
+				"shopmusic/snippets/quick-shop.liquid"
+			],
+			[
+				"fanc",
+				"framework/fahey-rodriguez4877-5079530/assets/fancybox.css"
+			],
+			[
+				"e",
+				"framework/fahey-rodriguez4877-5079530/assets/enhance.js"
+			],
+			[
+				"fancy",
+				"framework/fahey-rodriguez4877-5079530/assets/fancybox.css"
+			],
+			[
+				"prodhom",
+				"framework/fahey-rodriguez4877-5079530/snippets/product-loop-home.liquid"
+			],
+			[
+				"produthome",
+				"framework/fahey-rodriguez4877-5079530/snippets/product-loop-home.liquid"
+			],
+			[
+				"frameworktheme",
+				"framework/fahey-rodriguez4877-5079530/layout/theme.liquid"
+			],
+			[
+				"product-home",
+				"framework/fahey-rodriguez4877-5079530/snippets/product-loop-home.liquid"
+			],
+			[
+				"product.l",
+				"framework/fahey-rodriguez4877-5079530/snippets/product.liquid"
+			],
+			[
+				"product-loop",
+				"framework/fahey-rodriguez4877-5079530/snippets/product-loop.liquid"
+			],
+			[
+				"frameowkrproduct",
+				"framework/fahey-rodriguez4877-5079530/templates/product.liquid"
+			],
+			[
+				"collec",
+				"fahey-rodriguez4877-5079530/snippets/collection-listing.liquid"
+			],
+			[
+				"ehan",
+				"fahey-rodriguez4877-5079530/assets/enhance.js"
+			],
+			[
+				"enha",
+				"fahey-rodriguez4877-5079530/assets/enhance.js"
+			],
+			[
+				"enh",
+				"fahey-rodriguez4877-5079530/assets/enhance.js"
+			],
+			[
+				"theme.",
+				"fahey-rodriguez4877-5079530/layout/theme.liquid"
+			],
+			[
+				"related",
+				"fahey-rodriguez4877-5079530/snippets/related-products.liquid"
+			],
+			[
+				"pro",
+				"fahey-rodriguez4877-5079530/templates/product.liquid"
+			],
+			[
+				"glob",
+				"assets/scss/foundation/components/_global.scss"
+			],
+			[
+				"variabl",
+				"assets/scss/foundation/_variables.scss"
+			],
+			[
+				"top",
+				"fahey-rodriguez4877-5079530/snippets/top-navigation.liquid"
+			],
+			[
+				"mobile",
+				"fahey-rodriguez4877-5079530/snippets/mobile-navigation.liquid"
+			],
+			[
+				"offcan",
+				"assets/scss/foundation/components/_offcanvas.scss"
+			],
+			[
+				"top-bar",
+				"assets/scss/foundation/components/_top-bar.scss"
+			],
+			[
+				"vara",
+				"assets/foundation/_variables.scss"
+			],
+			[
+				"grid",
+				"assets/foundation/components/_grid.scss"
+			],
+			[
+				"foun",
+				"assets/foundation.scss"
+			],
+			[
+				"jquery",
+				"assets/resize.jquery.js"
+			],
+			[
+				"offca",
+				"assets/foundation/components/_offcanvas.scss"
+			],
+			[
+				"button",
+				"assets/foundation/components/_buttons.scss"
+			],
+			[
+				"offc",
+				"assets/foundation/components/_offcanvas.scss"
+			],
+			[
+				"slide",
+				"snippets/slideshow.liquid"
+			],
+			[
+				"topbar",
+				"assets/foundation/components/_top-bar.scss"
+			],
+			[
+				"glbo",
+				"assets/foundation/components/_global.scss"
+			],
+			[
+				"orbit",
+				"assets/foundation/components/_orbit.scss"
+			],
+			[
+				"found",
+				"assets/foundation-icons.css"
+			],
+			[
+				"mme",
+				"assets/mmenu.css"
+			],
+			[
+				"sett",
+				"config/settings.html"
+			],
+			[
+				"jque",
+				"assets/jquery.offcanvas.js"
+			],
+			[
+				"password",
+				"templates/customers/reset_password.liquid"
+			],
+			[
+				"reset",
+				"templates/customers/reset_password.liquid"
+			],
+			[
+				"register",
+				"templates/customers/register.liquid"
+			],
+			[
+				"to",
+				"snippets/top-navigation.liquid"
+			],
+			[
+				"off",
+				"assets/jquery.offcanvas.js"
+			],
+			[
+				"mmen",
+				"assets/jquery.mmenu.min.js"
+			],
+			[
+				"mob",
+				"snippets/mobile-navigation.liquid"
+			],
+			[
+				"mobi",
+				"snippets/mobile-navigation.liquid"
+			],
+			[
+				"theme.l",
+				"layout/theme.liquid"
+			],
+			[
+				"sty",
+				"assets/style.scss"
+			],
+			[
+				"vi",
+				"assets/foundation/components/_visibility.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 286.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -38,6 +38,7 @@ GEM
     pygments.rb (0.5.4)
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.1.0)
+    rdiscount (2.1.7)
     redcarpet (2.3.0)
     safe_yaml (0.7.1)
     sass (3.2.12)
@@ -50,4 +51,5 @@ DEPENDENCIES
   compass (>= 0.12)
   csscss (~> 1.3)
   jekyll (~> 1.2.1)
+  rdiscount
   redcarpet

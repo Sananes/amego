@@ -1,0 +1,15 @@
+---
+layout: none
+permalink: .htaccess
+---
+DirectoryIndex index.html index.php
+
+
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)\.html$ /$1 [L,R=301]
