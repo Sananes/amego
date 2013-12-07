@@ -3,8 +3,11 @@
       <section class="title-area">
         <h1><a href="/"><img data-interchange="[{{site.url}}/img/logo@2x.png, (retina)]" width="123" height="36" src="{{site.url}}/img/logo.png" alt="{{ site.name }}"></a></h1>
       </section>
-
-      <ul class="top-menu right">
+      <ul class="top-menu top-menu-small right show-for-small-only">
+        <!-- <li><a href="#" class="button left">Let's Talk</a></li> -->
+        <li class="icon-toggle"><a href="#" class="right-off-canvas-toggle menu-icon" style="padding-top:10px"><span></span></a></li>
+      </ul>
+      <ul class="top-menu right hide-for-small-only">
         <li{% if page.slug == "projects" %} class="active"{% endif %}><a href="{{site.url}}/case-studies">Case Studies</a></li>
         <li class="contact"><a href="#" class="button tiny capitalized bordered quote"  data-reveal-id="contact-form">Let's Talk</a></li>
       </ul>

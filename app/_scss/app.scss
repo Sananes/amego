@@ -59,6 +59,15 @@ p, li {
 .uppercase {
   text-transform:uppercase !important;
 }
+#wrapper:before {
+  position:absolute;
+  content: "";
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
 /*****************************************************************************/
 /*
 /* Footer
@@ -80,6 +89,7 @@ p, li {
 #stickybar {
   &.fixed {
     background:$primary-color;
+    z-index:97;
   }
 }
 .home #header {
@@ -146,8 +156,45 @@ p, li {
   height:100px;
 }
 
-.title-area, h1 {
+.title-area h1 {
   @extend #header.height;
+}
+.move-left .mobile-menu {
+  @include translate3d(0%,0,0);
+  right:0;
+
+}
+.mobile-menu {
+  background: $primary-color;
+  position:fixed;
+  @include translate3d(100%,0,0);
+  -webkit-transition: -webkit-#{$menu-slide};
+  -moz-transition: -moz-#{$menu-slide};
+  -ms-transition: -ms-#{$menu-slide};
+  -o-transition: -o-#{$menu-slide};
+  transition: #{$menu-slide};
+
+  li {
+    font-family: $secondary-font;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    text-align:center;
+  }
+  .button {
+    background:$secondary-color;
+  }
+}
+.top-menu-small {
+  
+  .contact-button {
+    margin-top:-30px !important;
+  }
+  .menu-icon {
+    display:inline-block;
+  }
+  .icon-toggle {
+    margin-top:30px;
+  }
 }
 .top-menu {
   list-style:none;
@@ -337,8 +384,8 @@ p, li {
   }
   &.dark {
     input, textarea, select {
-      font-family: $primary-font;
-      font-weight:$font-weight-100;
+      font-family: $secondary-font;
+      font-weight:$font-weight-300;
       color:#fff;
       @include placeholder(#a6a9b8);
       background:#525770;
@@ -367,6 +414,7 @@ p, li {
   .close-reveal-modal {
     font-size: emCalc(100px);
     font-weight:$font-weight-100;
+    font-family: $primary-font;
     top: -50px;
     right:-50px;
     color: rgba(255,255,255,0.3);
@@ -529,17 +577,23 @@ p, li {
       bottom:0;
       background:rgba(0,0,0,0.5);
     }
-
-    .title {
-      text-transform:inherit !important;
-      color: #fff;
+    .project-title {
       position:absolute;
       bottom:20px;
+      .title {
+        color: #fff;
+        margin:0;
+      }
+      .subleader {
+        color: $white-opacity-50;
+      }
     }
+
   }
   .shots {
     list-style:none;
     margin-top:80px;
+    padding:0;
     .shot {
       margin-bottom:30px;
     }
@@ -585,10 +639,19 @@ p, li {
 .footer {
   background:$primary-color;
   color: rgba(255,255,255,0.4);
+  a { 
+    color: rgba(255,255,255,0.8);
 
-  a { color: rgba(255,255,255,0.8); }
+    &:hover {
+      color: #fff;
+    }
+  }
   li, ul {
+    font-size: emCalc(14px) !important;
     line-height:85px;
+    font-family:$secondary-font;
+    text-transform: uppercase;
+    letter-spacing:1px;
     height:85px;
     margin:0;
   }
@@ -600,5 +663,26 @@ p, li {
 @media #{$small-up} { 
   .row {
     padding: 0 20px;
+  }
+}
+@media #{$small-only} {
+  #header-mobile-height {
+    line-height:60px !important;
+    height:60px !important;
+  }
+  #header {
+    padding-top:0px;
+    height:auto!important;
+    background-position:center center;
+    background-attachment:scroll !important;
+
+    .intro-lead {
+      margin:30px 0px !important;
+    }
+  }
+  header {
+    .title-area h1, li, ul {
+      @extend #header-mobile-height;
+    }
   }
 }

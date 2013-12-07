@@ -31,6 +31,9 @@
 $primary-font: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $secondary-font: "futura-pt", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $font-weight-100: 100;
+$font-weight-300: 300;
+
+$white-opacity-50: rgba(255,255,255,0.5);
 // Grid
 
 // $include-html-grid-classes: $include-html-classes;
@@ -44,7 +47,7 @@ $header-bottom-margin: .8rem !default;
 // We use these to control various global styles
 // $body-bg: #fff;
 $body-font-color: #222;
-// $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$body-font-family: $secondary-font;
 // $body-font-weight: normal;
 // $body-font-style: normal;
 

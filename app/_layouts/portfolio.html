@@ -5,18 +5,25 @@ slug: projects
 ---
 <div id="featured-project">
   <div class="row">
-    <h1 class="title">Our Portfolio</h1>   
+    <div class="project-title">
+      <a href="/project/">
+        <h1 class="title">Uncovr</h1>
+        <p class="subleader">Featured Work</p>
+      </a>
+    </div>   
   </div>
 </div>
 
 <section id="dribbble">
   <div class="row">
+    <h2>Featured</h2>
      {% dribbble_set %}
   </div>   
 </section>
 
 <section id="projects">
   <div class="row">
+    <h2>Case Studies</h2>
     <ul id="projects" class="no-bullet">
       {% for project in page.projects %}
         <li class="project large-4 columns">

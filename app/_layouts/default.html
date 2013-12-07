@@ -18,13 +18,30 @@
 
     </head>
     <body{% if page.slug %} class="{{page.slug}}"{% else %} class="home"{% endif %}>
-      <div id="wrapper">
-        {% include contact-form.html %}
 
-        {{content}}
+      <div id="wrapper" class="off-canvas-wrap">
 
-        {% include footer.html %}
+            <!-- Off Canvas Menu -->
+            <aside class="right-off-canvas-menu mobile-menu hold-canvas">
+            <!-- whatever you want goes here -->
+                <ul class="off-canvas-list">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Case Studies</a></li>
+                  <li><a href="#" class="button" data-reveal-id="contact-form">Let's Talk</a></li>
+                </ul>
+            </aside>
+            
+        <div class="inner-wrap">
+        
 
+       
+            {% include contact-form.html %}
+
+            {{content}}
+
+            {% include footer.html %}
+            <a class="exit-off-canvas"></a>
+        </div> <!-- / inner-wrap -->
       </div> <!-- /wrapper -->
     <!-- build:js({app,.tmp}) /js/scripts.js -->
     <script src="/_bower_components/jquery/jquery.min.js"></script>

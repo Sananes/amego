@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"seconda",
+				"secondary-color"
+			],
+			[
+				"seco",
+				"secondary-font"
+			],
+			[
 				"header",
 				"header-height"
 			],
@@ -104,25 +112,82 @@
 	"buffers":
 	[
 		{
+			"file": "app/_layouts/default.html",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 2123,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/_plugins/portfolio.rb",
+			"file": "app/_scss/_settings.scss",
 			"settings":
 			{
-				"buffer_size": 2101,
+				"buffer_size": 32584,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/_projects/test.yml",
+			"file": "app/_includes/header.html",
 			"settings":
 			{
-				"buffer_size": 907,
+				"buffer_size": 923,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/index.html",
+			"settings":
+			{
+				"buffer_size": 5764,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/_layouts/portfolio.html",
+			"settings":
+			{
+				"buffer_size": 977,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/_scss/app.scss",
+			"settings":
+			{
+				"buffer_size": 12011,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/_bower_components/foundation/js/foundation/foundation.offcanvas.js",
+			"settings":
+			{
+				"buffer_size": 1108,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/_bower_components/foundation/scss/foundation/components/_global.scss",
+			"settings":
+			{
+				"buffer_size": 12261,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/js/headroom.js",
+			"settings":
+			{
+				"buffer_size": 3063,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/js/main.js",
+			"settings":
+			{
+				"buffer_size": 1294,
 				"line_ending": "Unix"
 			}
 		},
@@ -130,15 +195,7 @@
 			"file": "_config.yml",
 			"settings":
 			{
-				"buffer_size": 1611,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/_plugins/__categories.rb",
-			"settings":
-			{
-				"buffer_size": 840,
+				"buffer_size": 1580,
 				"line_ending": "Unix"
 			}
 		}
@@ -210,7 +267,31 @@
 	},
 	"file_history":
 	[
+		"/Users/Sananes/Downloads/sidr-package-1.2.1/stylesheets/jquery.sidr.dark.css",
+		"/Users/Sananes/Documents/Web/amego/app/_plugins/dribbble.rb",
+		"/Users/Sananes/Documents/Web/amego/app/js/headroom.js",
 		"/Users/Sananes/Documents/Web/amego/_config.yml",
+		"/Users/Sananes/Downloads/headroom.js-master/src/jQuery.headroom.js",
+		"/Users/Sananes/Downloads/headroom.js-master/src/Headroom.js",
+		"/Users/Sananes/Downloads/headroom.js-master/dist/headroom.min.js",
+		"/Users/Sananes/Documents/Web/amego/app/_bower_components/headroom/.bower.json",
+		"/Users/Sananes/Downloads/headroom.js-master/dist/jQuery.headroom.min.js",
+		"/Users/Sananes/Documents/Projects/amego/bower.json",
+		"/Users/Sananes/Documents/Web/amego/app/_layouts/portfolio.html",
+		"/Users/Sananes/Documents/Web/amego/app/_plugins/portfolio.rb",
+		"/Users/Sananes/Documents/Web/amego/app/_projects/auctions-a-la-carte.yml",
+		"/Users/Sananes/Documents/Web/amego/app/_projects/b12.yml",
+		"/Users/Sananes/Documents/Web/amego/app/_projects/corpedia.yml",
+		"/Users/Sananes/Documents/Web/amego/app/_projects/data-realization.yml",
+		"/Users/Sananes/Documents/Web/amego/app/_projects/dev-fu.yml",
+		"/Users/Sananes/Documents/Web/amego/app/_projects/give-the-ok.yml",
+		"/Users/Sananes/Documents/Web/amego/app/_layouts/project.html",
+		"/Users/Sananes/Documents/Web/amego/dist/projects.html",
+		"/Users/Sananes/Documents/Web/amego/app/projects.html",
+		"/Users/Sananes/Documents/Web/amego/app/_posts/2013-12-01-welcome-to-jekyll.md",
+		"/Users/Sananes/Documents/Web/amego/app/_posts/2013-12-01-yo-jekyllrb.md",
+		"/Users/Sananes/Documents/Web/amego/app/_plugins/__categories.rb",
+		"/Users/Sananes/Documents/Web/amego/app/_plugins/pageproject.rb",
 		"/Users/Sananes/Documents/Web/project/_plugins/portfolio.rb",
 		"/Users/Sananes/Documents/Web/project/index.html",
 		"/Users/Sananes/Documents/Web/project/_config.yml",
@@ -223,7 +304,6 @@
 		"/Users/Sananes/Documents/Web/amego/app/_projects/2011-08-01-project.markdown",
 		"/Users/Sananes/Documents/Web/amego/app/_plugins/projects.rb",
 		"/Users/Sananes/Documents/Web/amego/app/_plugins/archive.rb",
-		"/Users/Sananes/Documents/Web/amego/app/_plugins/dribbble.rb",
 		"/Users/Sananes/Documents/Web/amego/app/_scss/_mixins.scss",
 		"/Users/Sananes/Documents/Web/amego/app/about.html",
 		"/Users/Sananes/Documents/Web/amego/app/_scss/app.scss",
@@ -234,17 +314,13 @@
 		"/Users/Sananes/Documents/Web/amego/app/_includes/footer.html",
 		"/Users/Sananes/Documents/Web/amego/app/portfolio.html",
 		"/Users/Sananes/Documents/Web/amego/app/_plugins/categories.rb",
-		"/Users/Sananes/Documents/Web/amego/app/_layouts/portfolio.html",
 		"/Users/Sananes/Documents/Web/amego/Gruntfile.js",
 		"/Users/Sananes/Documents/Web/amego/app/_layouts/page.html",
 		"/Users/Sananes/Documents/Web/amego/app/_layouts/projects.html",
 		"/Users/Sananes/Documents/Web/amego/app/_projects/dscovr.yml",
-		"/Users/Sananes/Documents/Web/amego/app/projects.html",
 		"/Users/Sananes/Documents/Web/amego/app/_projects/2013-12-01-dscovr.yml",
-		"/Users/Sananes/Documents/Web/amego/app/_posts/2013-12-01-welcome-to-jekyll.md",
 		"/Users/Sananes/Documents/Web/amego/app/_plugins/cat_and_tag_generator.r",
 		"/Users/Sananes/Documents/Web/amego/app/_portfolio/2013-12-01-dscovr.md",
-		"/Users/Sananes/Documents/Web/amego/app/_posts/2013-12-01-yo-jekyllrb.md",
 		"/Users/Sananes/Documents/Web/amego/app/index.html",
 		"/Users/Sananes/Documents/Web/amego/app/_portfolio/dscovr.md",
 		"/Users/Sananes/Documents/Web/amego/app/case-studies.html",
@@ -318,26 +394,7 @@
 		"/Users/Sananes/Documents/Projects/dscover.me/webapp/test/spec/controllers/main.js",
 		"/Users/Sananes/Documents/Projects/dscover.me/webapp/dist/scripts/modules.js",
 		"/Users/Sananes/Documents/Projects/dscover.me/webapp/app/js/directives/directives.js",
-		"/Users/Sananes/Documents/Projects/dscover.me/webapp/app/libs/bootstrap/less/variables.less",
-		"/Users/Sananes/Documents/Projects/dscover.me/webapp/app/partials/footer.html",
-		"/Users/Sananes/Documents/Projects/dscover.me/webapp/app/libs/spin/spin.min.js",
-		"/Users/Sananes/Documents/Projects/dscover.me/webapp/node_modules/grunt-autoprefixer/node_modules/autoprefixer/lib/autoprefixer/keyframes.js",
-		"/Users/Sananes/Documents/Projects/dscover.me/webapp/app/add_modal_bs3.html",
-		"/Users/Sananes/Documents/Projects/dscover.me/webapp/app/libs/bootstrap-ui/ui-bootstrap.min.js",
-		"/Users/Sananes/Downloads/bootstrap-gh-pages 2/ui-bootstrap-tpls-0.6.0.min.js",
-		"/Users/Sananes/Downloads/ui-slider-master/bower.json",
-		"/Users/Sananes/Downloads/bootstrap-custom/ui-bootstrap-custom-0.6.0.min.js",
-		"/Users/Sananes/Downloads/bootstrap-gh-pages/ui-bootstrap-0.1.0.js",
-		"/Users/Sananes/Downloads/ui-slider-master/demo/demo.html",
-		"/Users/Sananes/Downloads/ui-slider-master/src/slider.js",
-		"/Users/Sananes/Downloads/audioslider/slider.css",
-		"/Users/Sananes/Documents/Projects/dscover.me/webapp/app/music/backup_tracks.json",
-		"/Users/Sananes/Downloads/peepcode-tunes-master/public/js/Tunes.js",
-		"/Users/Sananes/Downloads/audioslider/slider.js",
-		"/Users/Sananes/Documents/Projects/dscover.me/webapp/app/js/controllers/albums.json",
-		"/Users/Sananes/Downloads/audioslider/index.html",
-		"/Users/Sananes/Documents/Projects/dscover.me/webapp/app/tracks.json",
-		"/Users/Sananes/Downloads/demo/js/jquery-ui-1.8.21.custom.min.js"
+		"/Users/Sananes/Documents/Projects/dscover.me/webapp/app/libs/bootstrap/less/variables.less"
 	],
 	"find":
 	{
@@ -386,6 +443,47 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"wrapper",
+			"$menu-slide",
+			"3d",
+			"transform",
+			"mobile-menu",
+			"#header",
+			".top-menu",
+			"menu",
+			"close-reveal",
+			"mobile",
+			"font",
+			"type",
+			"font",
+			".top-menu",
+			"project",
+			"dribbble",
+			".title-area",
+			".title-area h1",
+			"project",
+			"footer",
+			"contact",
+			"header",
+			"reveal-modal",
+			"options",
+			"header",
+			"#header",
+			"#intro",
+			"featured-project",
+			".top-menu",
+			"subleader",
+			"capital",
+			"captialized",
+			"#intro",
+			"primary",
+			"Helvetica",
+			"$open-sans-font",
+			"open-sans",
+			"dribbble",
+			"featured",
+			"main.less",
+			"require",
 			"source",
 			"projects",
 			"project",
@@ -472,48 +570,7 @@
 			"apply",
 			"rootScope",
 			"loader",
-			".loder",
-			"load",
-			"loader",
-			".loader",
-			"indent",
-			"jshint",
-			"ngmin",
-			"==",
-			"=",
-			"==",
-			"ngmin",
-			"grunt-ngmin",
-			"grunt.loadNpmTasks('grunt-ngmin')",
-			"grunt.loadNpmTasks('grunt-ngmin');",
-			"ngmin",
-			"ng-hide",
-			"rootScope",
-			"hypemId",
-			"animation",
-			".animation",
-			"rotate",
-			".ortate",
-			"keyframes",
-			"@keyframe",
-			"media-controls",
-			".music-control",
-			"volume",
-			"example8",
-			"mute",
-			"alert",
-			".my-elm",
-			".volume",
-			"transition",
-			".progress",
-			"outline",
-			"current.track",
-			"TunesCtrl",
-			"tracks",
-			"audio",
-			"play",
-			"$rootScope",
-			"album"
+			".loder"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -521,6 +578,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"$primary-font",
 			".hide",
 			"$scope.current.track",
 			"$container",
@@ -558,84 +616,85 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 6,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "app/_layouts/default.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 2123,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								884,
+								884
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 183.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "app/_plugins/portfolio.rb",
+					"file": "app/_scss/_settings.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2101,
+						"buffer_size": 32584,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								625,
-								625
+								1550,
+								1550
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 733.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "app/_projects/test.yml",
-					"semi_transient": true,
+					"file": "app/_includes/header.html",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 907,
+						"buffer_size": 923,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								744,
-								748
+								453,
+								453
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -647,24 +706,24 @@
 				},
 				{
 					"buffer": 3,
-					"file": "_config.yml",
+					"file": "app/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1611,
+						"buffer_size": 5764,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								523,
-								523
+								556,
+								556
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -676,29 +735,205 @@
 				},
 				{
 					"buffer": 4,
-					"file": "app/_plugins/__categories.rb",
+					"file": "app/_layouts/portfolio.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 840,
+						"buffer_size": 977,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								655,
-								598
+								171,
+								171
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/_scss/app.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12011,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1455,
+								1455
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1091.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/_bower_components/foundation/js/foundation/foundation.offcanvas.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1108,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								1108
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 384.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/_bower_components/foundation/scss/foundation/components/_global.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12261,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9198,
+								9199
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5693.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/js/headroom.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3063,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2168,
+								2167
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_separators": "./\\\\()\\\"\\'-:,.;<>~!@#%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1286.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "app/js/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1294,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1230,
+								1230
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_separators": "./\\\\()\\\"\\'-:,.;<>~!@#%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "_config.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1580,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								753,
+								753
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 192.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -749,8 +984,28 @@
 		"selected_items":
 		[
 			[
+				"global",
+				"app/_bower_components/foundation/scss/foundation/components/_global.scss"
+			],
+			[
+				"app.scss",
+				"app/_scss/app.scss"
+			],
+			[
+				"default",
+				"app/_layouts/default.html"
+			],
+			[
+				"port",
+				"app/_layouts/portfolio.html"
+			],
+			[
 				"header",
 				"app/_includes/header.html"
+			],
+			[
+				"main.j",
+				"app/js/main.js"
 			],
 			[
 				"about",
@@ -765,24 +1020,12 @@
 				"app/js/main.js"
 			],
 			[
-				"default",
-				"app/_layouts/default.html"
-			],
-			[
 				"footer",
 				"app/_includes/footer.html"
 			],
 			[
-				"app.scss",
-				"app/_scss/app.scss"
-			],
-			[
 				"projects",
 				"app/projects.html"
-			],
-			[
-				"global",
-				"app/_bower_components/foundation/scss/foundation/components/_global.scss"
 			],
 			[
 				"global.scss",
@@ -1251,14 +1494,6 @@
 			[
 				"theme.l",
 				"layout/theme.liquid"
-			],
-			[
-				"sty",
-				"assets/style.scss"
-			],
-			[
-				"vi",
-				"assets/foundation/components/_visibility.scss"
 			]
 		],
 		"width": 0.0
