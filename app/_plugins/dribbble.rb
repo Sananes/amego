@@ -72,7 +72,7 @@ module Jekyll
       @page                      ||= 1
 
       @config['gallery_tag']     ||= 'ul'
-      @config['gallery_class']   ||= 'shots'
+      @config['gallery_class']   ||= 'dribbble_gallery'
       @config['is_list']         ||= true
       @config['full_size']       ||= false
       @config['a_target']        ||= '_blank'
