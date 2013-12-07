@@ -11,6 +11,11 @@
         <link rel="stylesheet" href="/css/app.css">
         <!-- endbuild -->
 
+        <!-- typekit -->
+        <script type="text/javascript" src="//use.typekit.net/opb3qao.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+        <!-- end typekit -->
+
     </head>
     <body{% if page.slug %} class="{{page.slug}}"{% else %} class="home"{% endif %}>
       <div id="wrapper">
@@ -25,11 +30,8 @@
     <script src="/_bower_components/jquery/jquery.min.js"></script>
     <script src="/_bower_components/modernizr/modernizr.js"></script>
     <script src="/_bower_components/foundation/js/foundation.min.js"></script>
-    {% if page.url == "/" %}
-    <script type="text/javascript" src="/js/googlemapsapi.js"></script>
-    <script src="/js/maps.js"></script>
-    <script src="/js/map-include.js"></script>
-    {% endif %}
+    <!-- <script src="/js/headroom.js"></script> -->
+
     <script src="/js/main.js"></script>
     <script src="/js/dribbble.js"></script>
     <script src="/js/waypoints.js"></script>

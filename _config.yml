@@ -27,7 +27,7 @@ dribbble_set:
   shots_per_page:  12
   page:            1
   gallery_tag:     'ul'
-  gallery_class:   'projects'
+  gallery_class:   'shots'
   is_list:         true
   a_target:        '_blank'
   full_size:       false
