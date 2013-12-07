@@ -1,114 +1,109 @@
-/**
- * UI enhancement for fixed headers.
- * Hides header when scrolling down
- * Shows header when scrolling up
- * @constructor
- * @param {DOMElement} elem the header element
- * @param {Object} options options for the widget
- */
-function Headroom (elem, options) {
-  options = options || Headroom.options;
+(function ($) {
+  "use strict";
 
-  this.lastKnownScrollY = 0;
-  this.elem             = elem;
-  this.debouncer        = new Debouncer(this.update.bind(this));
-  this.tolerance        = options.tolerance;
-  this.classes          = options.classes;
-  this.offset           = options.offset;
-  this.initialised      = false;
-}
-Headroom.prototype = {
-  constructor : Headroom,
+  var defaults = {
+    animateTime: 300
+  };
 
-  /**
-   * Initialises the widget
-   */
-  init : function() {
-    this.elem.classList.add(this.classes.initial);
+  var StickyChimp = function(el, options) {
+    this.options = $.extend(defaults, options);
+    this.el = el;
 
-    // defer event registration to handle browser 
-    // potentially restoring previous scroll position
-    setTimeout(this.attachEvent.bind(this), 100);
-  },
+    this.elementHeight = el.height();
+    this.elementTop = parseInt(el.css('top'), 10);
+    this.documentHeight = $(document).height();
+    this.windowHeight = $(window).height();
+    this.fixedClass = "fixed";
+    this.lastFromTop = 0;
+    this.sclUp = 0;
+    this.sclDown = 0;
+    this.upperHit = false;
+    this.lowerHit = false;
+    this.lastScroll = 0;
 
-  /**
-   * Unattaches events and removes any classes that were added
-   */
-  destroy : function() {
-    this.initialised = false;
-    window.removeEventListener('scroll', this.debouncer, false);
-    this.elem.classList.remove(this.classes.unpinned, this.classes.pinned, this.classes.initial);
-  },
+    var that = this;
 
-  /**
-   * Attaches the scroll event
-   * @private
-   */
-  attachEvent : function() {
-    if(!this.initialised){
-      this.initialised = true;
-      window.addEventListener('scroll', this.debouncer, false);
-    }
-  },
-  
-  /**
-   * Unpins the header if it's currently pinned
-   */
-  unpin : function() {
-    this.elem.classList.add(this.classes.unpinned);
-    this.elem.classList.remove(this.classes.pinned);
-  },
+    $(window).resize(function() {
+      that.onResize();
+    });
 
-  /**
-   * Pins the header if it's currently unpinned
-   */
-  pin : function() {
-    this.elem.classList.remove(this.classes.unpinned);
-    this.elem.classList.add(this.classes.pinned);
-  },
+    $(window).scroll(function() {
+      that.onScroll();
+    });
+  };
 
-  /**
-   * Gets the Y scroll position
-   * @see https://developer.mozilla.org/en-US/docs/Web/API/Window.scrollY
-   * @return {Number} pixels the page has scrolled along the Y-axis
-   */
-  getScrollY : function() {
-    return (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
-  },
+  StickyChimp.prototype.hideMenu = function() {
+    $(this.el).stop().animate({
+      opacity: 0,
+      top: '-=' + this.elementHeight
+    }, this.options.animateTime, function() {
+      $(this).css('top');
+    });
+  };
 
-  /**
-   * Handles updating the state of the widget
-   */
-  update : function() {
-    var currentScrollY     = this.getScrollY(),
-      toleranceExceeded    = Math.abs(currentScrollY-this.lastKnownScrollY) >= this.tolerance;
+  StickyChimp.prototype.showMenu = function(fromTop) {
+    $(this.el).addClass(this.fixedClass);
+    $(this.el).stop().animate({
+      opacity: 1,
+      top: this.elementTop > 0 && fromTop < this.elementTop ? this.elementTop : 0
+    }, this.options.animateTime);
+  };
 
-    if(currentScrollY < 0) { // Ignore bouncy scrolling in OSX
-      return;
-    }
+  StickyChimp.prototype.onResize = function() {
+    this.documentHeight = $(document).height();
+    this.windowHeight = $(window).height();
+  };
 
-    if(toleranceExceeded) {
-      if(currentScrollY > this.lastKnownScrollY && currentScrollY >= this.offset) {
-        this.unpin();
+  StickyChimp.prototype.onScroll = function() {
+    var now = +new Date(),
+    fromTop = $(window).scrollTop(),
+    atBottom = fromTop >= (this.documentHeight - this.windowHeight - 5);
+
+    if(this.elementTop === 0) {
+      // If element top is 0 we can defer the scroll events and reduce methods fired.
+      if((now - this.lastScroll < 250)) {
+        return;
       }
-      else if(currentScrollY < this.lastKnownScrollY) {
-        this.pin();
+    } else {
+      // However due to continue change in the menu position when scrolling we need to fire 
+      // each of the scroll events when the menu top is > 0 ensuring smooth animation.
+      var adjustedTop = fromTop < 0 ? 0 : fromTop;
+      $(this.el).css('top', fromTop > this.elementTop ? 0 : this.elementTop - adjustedTop);
+    }
+
+    // Clear animation queue and set to visible if user hits the top of the page suddenly.
+    if(fromTop <= 0) {
+      $(this.el).stop(true);
+      $(this.el).removeClass(this.fixedClass);
+      $(this.el).show().fadeTo(0, 1).css('top', this.elementTop);
+    }
+
+    if (!atBottom && fromTop > this.lastFromTop) {
+      this.sclUp = 0;
+      this.lowerHit = false;
+      this.sclDown += (fromTop - this.lastFromTop);
+
+      if (!this.upperHit && (this.sclDown > this.elementHeight)) {
+        this.upperHit = true;
+        this.hideMenu();
+      }
+    } else {
+      this.sclDown = 0;
+      this.upperHit = false;
+      this.sclUp += (this.lastFromTop - fromTop);
+      
+      if (!this.lowerHit && (this.sclUp > this.elementHeight || fromTop >= this.windowHeight)) {
+        this.lowerHit = true;
+        this.showMenu(fromTop);
       }
     }
 
-    this.lastKnownScrollY = currentScrollY;
-  }
-};
-/**
- * Default options
- * @type {Object}
- */
-Headroom.options = {
-  tolerance : 0,
-  offset: 0,
-  classes : {
-    pinned : 'headroom--pinned',
-    unpinned : 'headroom--unpinned',
-    initial : 'headroom'
-  }
-};
+    this.lastFromTop = fromTop;
+    this.lastScroll = now;
+  };
+
+  $.fn.stickychimp = function (options) {
+    new StickyChimp(this, options);
+  };
+
+}(jQuery));

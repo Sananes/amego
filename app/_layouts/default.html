@@ -30,8 +30,12 @@
     <script src="/_bower_components/jquery/jquery.min.js"></script>
     <script src="/_bower_components/modernizr/modernizr.js"></script>
     <script src="/_bower_components/foundation/js/foundation.min.js"></script>
-    <!-- <script src="/js/headroom.js"></script> -->
-
+    <script src="/js/headroom.js"></script>
+    {% if page.slug == "home" %}
+    <script src="/js/googlemapsapi.js"></script>
+    <script src="/js/maps.js"></script>
+    <script src="/js/map-include.js"></script>
+    {% endif %}
     <script src="/js/main.js"></script>
     <script src="/js/dribbble.js"></script>
     <script src="/js/waypoints.js"></script>
