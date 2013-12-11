@@ -115,7 +115,7 @@
 			"file": "app/_layouts/default.html",
 			"settings":
 			{
-				"buffer_size": 2123,
+				"buffer_size": 2128,
 				"line_ending": "Unix"
 			}
 		},
@@ -152,26 +152,18 @@
 			}
 		},
 		{
+			"file": "app/_bower_components/foundation/scss/foundation/components/_offcanvas.scss",
+			"settings":
+			{
+				"buffer_size": 9600,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "app/_scss/app.scss",
 			"settings":
 			{
-				"buffer_size": 12011,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/_bower_components/foundation/js/foundation/foundation.offcanvas.js",
-			"settings":
-			{
-				"buffer_size": 1108,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/_bower_components/foundation/scss/foundation/components/_global.scss",
-			"settings":
-			{
-				"buffer_size": 12261,
+				"buffer_size": 12273,
 				"line_ending": "Unix"
 			}
 		},
@@ -267,6 +259,8 @@
 	},
 	"file_history":
 	[
+		"/Users/Sananes/Documents/Web/amego/app/_bower_components/foundation/scss/foundation/components/_global.scss",
+		"/Users/Sananes/Documents/Web/amego/app/_bower_components/foundation/js/foundation/foundation.offcanvas.js",
 		"/Users/Sananes/Downloads/sidr-package-1.2.1/stylesheets/jquery.sidr.dark.css",
 		"/Users/Sananes/Documents/Web/amego/app/_plugins/dribbble.rb",
 		"/Users/Sananes/Documents/Web/amego/app/js/headroom.js",
@@ -327,7 +321,6 @@
 		"/Users/Sananes/Documents/Web/amego/app/js/waypoints.js",
 		"/Users/Sananes/Documents/Web/amego/app/js/main.js",
 		"/Users/Sananes/Documents/Web/amego/app/_includes/contact-form.html",
-		"/Users/Sananes/Documents/Web/amego/app/_bower_components/foundation/scss/foundation/components/_global.scss",
 		"/Users/Sananes/Documents/Web/amego/app/js/scrollspy.js",
 		"/Users/Sananes/Documents/Web/amego/app/_bower_components/foundation/js/foundation/foundation.magellan.js",
 		"/Users/Sananes/Documents/Web/amego/app/_includes/header.html",
@@ -393,8 +386,7 @@
 		"/Users/Sananes/Downloads/lesshat-2.0.0/build/lesshat.less",
 		"/Users/Sananes/Documents/Projects/dscover.me/webapp/test/spec/controllers/main.js",
 		"/Users/Sananes/Documents/Projects/dscover.me/webapp/dist/scripts/modules.js",
-		"/Users/Sananes/Documents/Projects/dscover.me/webapp/app/js/directives/directives.js",
-		"/Users/Sananes/Documents/Projects/dscover.me/webapp/app/libs/bootstrap/less/variables.less"
+		"/Users/Sananes/Documents/Projects/dscover.me/webapp/app/js/directives/directives.js"
 	],
 	"find":
 	{
@@ -443,6 +435,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"title-area",
+			".logo",
+			"header",
+			"mobile-menu",
 			"wrapper",
 			"$menu-slide",
 			"3d",
@@ -566,11 +562,7 @@
 			"apply",
 			"progress-bar",
 			"alterbri",
-			"itunes",
-			"apply",
-			"rootScope",
-			"loader",
-			".loder"
+			"itunes"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -616,7 +608,7 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -625,15 +617,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2123,
+						"buffer_size": 2128,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								884,
-								884
+								1188,
+								1188
 							]
 						],
 						"settings":
@@ -643,7 +635,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 183.0,
+						"translation.y": 327.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -688,8 +680,8 @@
 						"selection":
 						[
 							[
-								453,
-								453
+								261,
+								261
 							]
 						],
 						"settings":
@@ -717,8 +709,8 @@
 						"selection":
 						[
 							[
-								556,
-								556
+								173,
+								91
 							]
 						],
 						"settings":
@@ -764,19 +756,19 @@
 				},
 				{
 					"buffer": 5,
-					"file": "app/_scss/app.scss",
+					"file": "app/_bower_components/foundation/scss/foundation/components/_offcanvas.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12011,
+						"buffer_size": 9600,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1455,
-								1455
+								3510,
+								3463
 							]
 						],
 						"settings":
@@ -786,55 +778,26 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1091.0,
+						"translation.y": 2104.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 6,
-					"file": "app/_bower_components/foundation/js/foundation/foundation.offcanvas.js",
+					"file": "app/_scss/app.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1108,
+						"buffer_size": 12273,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								1108
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 384.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "app/_bower_components/foundation/scss/foundation/components/_global.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 12261,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								9198,
-								9199
+								2971,
+								2971
 							]
 						],
 						"settings":
@@ -844,13 +807,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5693.0,
+						"translation.y": 3141.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 7,
 					"file": "app/js/headroom.js",
 					"semi_transient": false,
 					"settings":
@@ -874,13 +837,13 @@
 							"word_separators": "./\\\\()\\\"\\'-:,.;<>~!@#%^&*|+=[]{}`~?"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1286.0,
+						"translation.y": 384.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 8,
 					"file": "app/js/main.js",
 					"semi_transient": false,
 					"settings":
@@ -910,7 +873,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 9,
 					"file": "_config.yml",
 					"semi_transient": false,
 					"settings":
@@ -984,16 +947,24 @@
 		"selected_items":
 		[
 			[
+				"default",
+				"app/_layouts/default.html"
+			],
+			[
+				"offca",
+				"app/_bower_components/foundation/scss/foundation/components/_offcanvas.scss"
+			],
+			[
+				"offcan",
+				"app/_bower_components/foundation/js/foundation/foundation.offcanvas.js"
+			],
+			[
 				"global",
 				"app/_bower_components/foundation/scss/foundation/components/_global.scss"
 			],
 			[
 				"app.scss",
 				"app/_scss/app.scss"
-			],
-			[
-				"default",
-				"app/_layouts/default.html"
 			],
 			[
 				"port",
@@ -1392,10 +1363,6 @@
 				"fahey-rodriguez4877-5079530/snippets/mobile-navigation.liquid"
 			],
 			[
-				"offcan",
-				"assets/scss/foundation/components/_offcanvas.scss"
-			],
-			[
 				"top-bar",
 				"assets/scss/foundation/components/_top-bar.scss"
 			],
@@ -1414,10 +1381,6 @@
 			[
 				"jquery",
 				"assets/resize.jquery.js"
-			],
-			[
-				"offca",
-				"assets/foundation/components/_offcanvas.scss"
 			],
 			[
 				"button",

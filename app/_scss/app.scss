@@ -8,8 +8,9 @@
 
 @import "settings";
 @import "mixins";
+@import "icons";
 @import "../_bower_components/foundation/scss/foundation";
-@import url(http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic|Open+Sans:300italic,400italic,400,300&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic|Open+Sans:100italic,100,300italic,400italic,400,300&subset=latin,latin-ext);
 
 
 /*****************************************************************************/
@@ -31,7 +32,7 @@ h1, h2, h3 {
 }
 p, li { 
   font-family: $primary-font;
-  font-weight:300;
+  font-weight:400;
 }
 
 /*****************************************************************************/
@@ -93,7 +94,7 @@ p, li {
   }
 }
 .home #header {
-  background: url(../img/intro-large.jpg) no-repeat center center fixed;
+  background: url(../img/intro-large.jpg) no-repeat center center ;
   background-size:cover;
   height: 820px;
   padding-top: 30px;
@@ -158,6 +159,7 @@ p, li {
 
 .title-area h1 {
   @extend #header.height;
+  line-height:97px !important;
 }
 .move-left .mobile-menu {
   @include translate3d(0%,0,0);
@@ -173,6 +175,7 @@ p, li {
   -ms-transition: -ms-#{$menu-slide};
   -o-transition: -o-#{$menu-slide};
   transition: #{$menu-slide};
+  z-index:97;
 
   li {
     font-family: $secondary-font;
@@ -440,10 +443,12 @@ p, li {
 
   .all-features {
     margin-top:50px;
+    margin-bottom:0;
   } 
   .inner {
-    padding:10px;
-    background: #fff;
+  }
+  .icon {
+    font-size:emCalc(50px);
   }
   .service h2 {
     font-size: emCalc(18px);
@@ -452,10 +457,7 @@ p, li {
   .services {margin:10px 0;}
   .services li { line-height: emCalc(26px); }
   .heading { 
-    padding: 8px 18px 25px 18px;
-    margin: 0 -10px;
     font-size: emCalc(16px);
-    background: url(../img/heading-underline.png) no-repeat bottom center;
   }
 }
 #about {
@@ -546,8 +548,9 @@ p, li {
   text-align:center;
   padding:100px 0;
 
-  .title {
+  .title, h2 {
     color: $primary-color;
+    margin-bottom:30px;
   }
   .subleader {
     width:80% !important;
@@ -555,8 +558,22 @@ p, li {
     color: grey;
   }
 }
+
+// Clients
+
+#clients {
+  ul {
+    text-align:center;
+    li {
+      img { vertical-align:middle; margin:10px;}
+    }
+  }
+}
 // Projects
 .projects {
+  #dribbble {
+    padding:30px 0;
+  }
   #featured-project {
     background: url(../img/featured-work.jpg) no-repeat center center;
     background-size:cover;
@@ -592,7 +609,7 @@ p, li {
   }
   .shots {
     list-style:none;
-    margin-top:80px;
+    margin-top:30px;
     padding:0;
     .shot {
       margin-bottom:30px;
